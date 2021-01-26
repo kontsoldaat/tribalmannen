@@ -1,7 +1,7 @@
 /**
  * Utilities to work with JS events
  *
- * @author joaovperin
+ * @author {ported nl} 
  */
 if (!window.TwFramework) {
     window.TwFramework = {}
