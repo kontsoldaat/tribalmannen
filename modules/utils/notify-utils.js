@@ -53,7 +53,7 @@ new Promise(exportModule => {
                 $.ajax({
                         method: "GET",
                         dataType: "text",
-                        url: `https://raw.githubusercontent.com/joaovperin/TribalWars/master/Modules/${modulePath}.js`
+                        url: `https://raw.githubusercontent.com/kontsoldaat/tribalmannen/main/modules/${modulePath}.js`
                     })
                     .done(res => resolve(eval(res)))
                     .fail(req => reject(console.error("Fail loading module '", name, "'.")));
