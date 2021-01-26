@@ -1,7 +1,7 @@
 /**
  * A module to help with notifiying the user
  *
- * @author kont
+ * @author yes
  */
 if (!window.TwFramework) {
     window.TwFramework = {}
