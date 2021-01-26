@@ -180,7 +180,7 @@
     loadModule: moduleName => {
         return new Promise((resolve, reject) => {
             const modulePath = moduleName.replace('.', '/');
-            const moduleUrl = `https://raw.githubusercontent.com/joaovperin/TribalWars/master/Modules/${modulePath}.js`;
+            const moduleUrl = `https://raw.githubusercontent.com/kontsoldaat/tribalmannen/main/modules/${modulePath}.js`;
             console.debug('[TwScripts] Loading ', modulePath, ' from URL ', moduleUrl, '...');
             return $.ajax({
                     method: "GET",
